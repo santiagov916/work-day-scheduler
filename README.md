@@ -1,6 +1,8 @@
 # work-day-scheduler
 
 
+link to working code: 
+https://santiagov916.github.io/work-day-scheduler/
 
 <!-- User Story -->
 AS AN employee with a busy schedule
