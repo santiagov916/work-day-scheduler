@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootsrap link -->
     <link rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!-- icon link -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!-- google font link -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -29,168 +32,65 @@
       <p id="currentDay" class="lead"></p>
     </header>
 
-<div class="container flex-column">
+<div class="container">
       <!-- Timeblocks go here -->
-<div class="time-block d-flex col-12 m-1">
-    <div class="hour col-2">
-        <p class="text-right">
-            9am
-        </p>
-        </div>
-    <div class="col-8 text-left">
-        <textarea cols="30" rows="4"
-        class="description h-100 row"></textarea>
-    </div>
-    <div class="saveBtn col-2 d-flex flex-column align-items-center justify-content-center">
-        <div class="img">
-            <i class="oi oi-wrench d-flex"></i>
-        </div>
-    </div>
+<div id="nine-am" class="time-block row">
+        <div class="col-1 hour text-right">9 AM</div>
+        <textarea class="description col-10 hour-9"></textarea>
+    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
 </div>
 
-<div class="time-block d-flex col-12 m-1">
-    <div class="hour col-2">
-        <p class="text-right">
-            10am
-        </p>
-        </div>
-    <div class="col-8 text-left">
-        <textarea cols="30" rows="4"
-        class="description h-100 row"></textarea>
-    </div>
-    <div class="saveBtn col-2 d-flex flex-column align-items-center justify-content-center">
-        <div class="img">
-            <i class="oi oi-wrench d-flex"></i>
-        </div>
-    </div>
+<div id="ten-am" class="time-block row">
+    <div class="col-1 hour text-right">10 AM</div>
+    <textarea class="description col-10 hour-10"></textarea>
+<button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
 </div>
 
-<div class="time-block d-flex col-12 m-1">
-    <div class="hour col-2">
-        <p class="text-right">
-            11am
-        </p>
-        </div>
-    <div class="col-8 text-left">
-        <textarea cols="30" rows="4"
-        class="description h-100 row"></textarea>
-    </div>
-    <div class="saveBtn col-2 d-flex flex-column align-items-center justify-content-center">
-        <div class="img">
-            <i class="oi oi-wrench d-flex"></i>
-        </div>
-    </div>
+<div id="eleven-am" class="time-block row">
+    <div class="col-1 hour text-right">11 AM</div>
+    <textarea class="description col-10 hour-11"></textarea>
+<button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
 </div>
 
-<div class="time-block d-flex col-12 m-1">
-    <div class="hour col-2">
-        <p class="text-right">
-            12pm
-        </p>
-        </div>
-    <div class="col-8 text-left">
-        <textarea cols="30" rows="4"
-        class="description h-100 row"></textarea>
-    </div>
-    <div class="saveBtn col-2 d-flex flex-column align-items-center justify-content-center">
-        <div class="img">
-            <i class="oi oi-wrench d-flex"></i>
-        </div>
-    </div>
+<div id="twelve-am" class="time-block row">
+    <div class="col-1 hour text-right">12 PM</div>
+    <textarea class="description col-10 hour-12"></textarea>
+<button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
 </div>
 
-<div class="time-block d-flex col-12 m-1">
-    <div class="hour col-2">
-        <p class="text-right">
-            1pm
-        </p>
-        </div>
-    <div class="col-8 text-left">
-        <textarea cols="30" rows="4"
-        class="description h-100 row"></textarea>
-    </div>
-    <div class="saveBtn col-2 d-flex flex-column align-items-center justify-content-center">
-        <div class="img">
-            <i class="oi oi-wrench d-flex"></i>
-        </div>
-    </div>
+<div id="one-pm" class="time-block row">
+    <div class="col-1 hour text-right">1 PM</div>
+    <textarea class="description col-10 hour-13"></textarea>
+<button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
 </div>
 
-<div class="time-block d-flex col-12 m-1">
-    <div class="hour col-2">
-        <p class="text-right">
-            2pm
-        </p>
-        </div>
-    <div class="col-8 text-left">
-        <textarea cols="30" rows="4"
-        class="description h-100 row"></textarea>
-    </div>
-    <div class="saveBtn col-2 d-flex flex-column align-items-center justify-content-center">
-        <div class="img">
-            <i class="oi oi-wrench d-flex"></i>
-        </div>
-    </div>
+<div id="two-pm" class="time-block row">
+    <div class="col-1 hour text-right">2 PM</div>
+    <textarea class="description col-10 hour-14"></textarea>
+<button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
 </div>
 
-<div class="time-block d-flex col-12 m-1">
-    <div class="hour col-2">
-        <p class="text-right">
-            3pm
-        </p>
-        </div>
-    <div class="col-8 text-left">
-        <textarea cols="30" rows="4"
-        class="description h-100 row"></textarea>
-    </div>
-    <div class="saveBtn col-2 d-flex flex-column align-items-center justify-content-center">
-        <div class="img">
-            <i class="oi oi-wrench d-flex"></i>
-        </div>
-    </div>
+<div id="three-pm" class="time-block row">
+    <div class="col-1 hour text-right">3 PM</div>
+    <textarea class="description col-10 hour-15"></textarea>
+<button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
 </div>
 
-<div class="time-block d-flex col-12 m-1">
-    <div class="hour col-2">
-        <p class="text-right">
-            4pm
-        </p>
-        </div>
-    <div class="col-8 text-left">
-        <textarea cols="30" rows="4"
-        class="description h-100 row"></textarea>
-    </div>
-    <div class="saveBtn col-2 d-flex flex-column align-items-center justify-content-center">
-        <div class="img">
-            <i class="oi oi-wrench d-flex"></i>
-        </div>
-    </div>
+<div id="four-pm" class="time-block row">
+    <div class="col-1 hour text-right">4 PM</div>
+    <textarea class="description col-10 hour-16"></textarea>
+<button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
 </div>
 
-<div class="time-block d-flex col-12 m-1">
-    <div class="hour col-2">
-        <p class="text-right">
-            5pm
-        </p>
-        </div>
-    <div class="col-8 text-left">
-        <textarea cols="30" rows="4"
-        class="description h-100 row"></textarea>
-    </div>
-    <div class="saveBtn col-2 d-flex flex-column align-items-center justify-content-center">
-        <div class="img">
-            <i class="oi oi-wrench d-flex"></i>
-        </div>
-    </div>
+<div id="five-pm" class="time-block row">
+    <div class="col-1 hour text-right">5 PM</div>
+    <textarea class="description col-10 hour-17"></textarea>
+<button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
 </div>
 
-
-
-  
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./assets/lib/moment/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
